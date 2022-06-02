@@ -1,4 +1,5 @@
-const boxes = [
+/* eslint-disable import/no-anonymous-default-export */
+export default [
     {
         id: 1,
         on: true
@@ -24,5 +25,3 @@ const boxes = [
         on: false
     },
 ];
-
-export default boxes;

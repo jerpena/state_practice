@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div class="columns is-mobile">
-        <div class="column is-one-fifth">
+      <div className="columns is-mobile">
+        <div className="column is-menu">
           <Menu />
         </div>
         <div className="column">
